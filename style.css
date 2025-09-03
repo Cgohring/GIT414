@@ -18,66 +18,106 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+time, mark, audio, video    {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+footer, header, hgroup, menu, nav, section    {
+    display: block;
 }
-body {
-	line-height: 1;
+
+body    {
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol, ul    {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote, q    {
+    quotes: none;
 }
+
 blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+q:before, q:after    {
+    content: '';
+    content: none;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+
+table    {
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /* Global */
-body {font-family: Arial, sans-serif; margin: 0; padding: 0;}
-header, nav, main, footer {padding: 1rem;}
+body    {
+  font-family: Arial, sans-serif; 
+  margin: 0; 
+  padding: 0;
+}
 
-header, footer {background: rgb(98, 221, 208);}
+header, nav, main, footer    {
+  padding: 1rem;
+}
+
+header, footer    {background: rgb(98, 221, 208);}
 
 /* Heading Styles */
-h1 {font-weight: 600;}
+h1    {font-weight: 600;}
+
+h2    {
+  margin: 0.5rem 0rem 0.5rem 0rem;
+  font-weight: 500;
+}
 
 /* Nav Styles */
-nav h2 {visibility: hidden;
-        padding: 1rem;
+nav h2    {
+  visibility: hidden;
+  padding: 1rem;
+}
+
+p    {
+  margin: 0.5rem 0rem 0.5rem 0rem;
 }
 
 /* Medium screens */
-@media only screen and (min-width: 600px) {
- nav ul {display: flex; gap: 1rem;}
- main {background: yellow;}
+@media only screen and (min-width: 600px)    {
+  nav ul    {
+    display: flex; 
+    gap: 1rem;
+  }
+
+  main    {
+    background: yellow;
+  }
 }
 
 /* Large screens */
-@media only screen and (min-width: 900px) {
- body {max-width: 900px; margin: auto;}
- h1 {font-size: 3rem;}
-  main {background: blue;}
+@media only screen and (min-width: 900px)    {
+  body    {
+    max-width: 900px; 
+    margin: auto;
+  }
+
+  h1    {
+    font-size: 3rem;
+  }
+
+  main    {
+    background: blue;
+  }
 }
 
 /* Extra large */
-@media only screen and (min-width: 1200px) {
-  main {background: red;}
+@media only screen and (min-width: 1200px)    {
+  main    {
+    background: red;
+  }
 }
