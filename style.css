@@ -58,33 +58,37 @@ table    {
 
 /* Global */
 body    {
-  font-family: Arial, sans-serif; 
-  margin: 0; 
-  padding: 0;
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0;
 }
 
 header, nav, main, footer    {
-  padding: 1rem;
+    padding: 1rem;
 }
 
-header, footer    {background: rgb(98, 221, 208);}
+header, footer    {
+    background: rgb(98, 221, 208);
+}
 
 /* Heading Styles */
-h1    {font-weight: 600;}
+h1    {
+    font-weight: 600;
+}
 
 h2    {
-  margin: 0.5rem 0rem 0.5rem 0rem;
-  font-weight: 500;
+    margin: 0.5rem 0rem 0.5rem 0rem;
+    font-weight: 500;
 }
 
 /* Nav Styles */
 nav h2    {
-  visibility: hidden;
-  padding: 1rem;
+    visibility: hidden;
+    padding: 1rem;
 }
 
 p    {
-  margin: 0.5rem 0rem 0.5rem 0rem;
+    margin: 0.5rem 0rem 0.5rem 0rem;
 }
 
 /* Medium screens */
@@ -101,23 +105,23 @@ p    {
 
 /* Large screens */
 @media only screen and (min-width: 900px)    {
-  body    {
-    max-width: 900px; 
-    margin: auto;
-  }
+    body    {
+        max-width: 900px; 
+        margin: auto;
+    }
 
-  h1    {
-    font-size: 3rem;
-  }
+    h1    {
+        font-size: 3rem;
+    }
 
-  main    {
-    background: blue;
-  }
+    main    {
+        background: blue;
+    }
 }
 
 /* Extra large */
 @media only screen and (min-width: 1200px)    {
-  main    {
-    background: red;
-  }
+    main    {
+        background: red;
+    }
 }
